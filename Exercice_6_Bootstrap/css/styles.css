@@ -1,0 +1,38 @@
+header {
+    background-image: url(../images/img4.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.navbar-brand img {
+    width: 40px;
+}
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+}
+.overlay-header {
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 80%);
+}
+.sponsor {
+    width: 80px;
+}
+.overlay {
+    background-color: rgb(244, 247, 250);
+}
+.icon {
+    width: 60px;
+}
+@media screen and (min-width: 830px) {
+    header div > section {
+        padding: 60px 0 100px 0;
+    }
+    .nav-link {
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    .navbar-brand img {
+            width: 120px;
+        }
+    
+}
